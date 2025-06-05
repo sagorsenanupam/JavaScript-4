@@ -6,7 +6,12 @@
  * pass the parameter(s), check wether the parameter passed in proper format
  */
 function sumOfNumbers(numbers) {
-  console.log(numbers);
+  let sum = 0;
+  for (const number of numbers) {
+    sum += number;
+  }
+  return sum;
 }
-const sum = sumOfNumbers();
+const numbs = [54, 28, 65, 95];
+const sum = sumOfNumbers(numbs);
 console.log("Sum of Number is", sum);
