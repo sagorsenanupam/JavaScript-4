@@ -6,4 +6,16 @@ function fanOffKor() {
   console.log("click the switch to off");
 }
 
-function brushTeeth() {}
+// call the function
+fanOffKor();
+
+// function name(){
+//
+// }
+function brushTeeth() {
+  console.log(console.log("Pick up the brush"));
+  console.log("Add paste");
+  console.log("2Min goso and goso");
+}
+// call the function
+brushTeeth();
